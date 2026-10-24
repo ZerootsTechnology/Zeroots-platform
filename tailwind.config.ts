@@ -9,8 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#141B45",
+        secondary: "#1E2761",
+        accent: "#F2A900",
+        lightblue: "#CADCFC",
+        surface: "#F4F6FB",
+        textPrimary: "#1A1A1A",
+        textSecondary: "#6B7280",
+        success: "#2F9E5B",
+        warning: "#F59E0B",
+        danger: "#C1443C",
+      },
+      fontFamily: {
+        sans: ["var(--font-inter)", "sans-serif"],
+        heading: ["var(--font-playfair)", "serif"],
+        mono: ["var(--font-jetbrains)", "monospace"],
       },
     },
   },
